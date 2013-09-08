@@ -47,7 +47,7 @@ void fill_m2()
     }
 }
 
-print_m2()
+void print_m2()
 {
     int i, j;
     for (i=0; i<20; i++) {
@@ -60,7 +60,7 @@ print_m2()
     printf("====================\n");
 }
 
-fprint_m2(FILE *fp)
+void fprint_m2(FILE *fp)
 {
     int i, j;
     for (i=0; i<20; i++) {

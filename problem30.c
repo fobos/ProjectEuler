@@ -28,7 +28,7 @@
  */
 int problem30()
 {
-    int i, j = 0;
+    int i;
     int sum = 0;
 
     for (i = 100; i <= 354294; i++) {

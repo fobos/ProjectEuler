@@ -15,7 +15,7 @@
  */
 int problem2(int fmax)
 {
-    int f0 = 0, f1 = 1, f;
+    int f0 = 0, f1 = 1;
     int fn = 0, fn1 = 0, fn2 = 0;
     int n;
     int sum = 0;

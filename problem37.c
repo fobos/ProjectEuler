@@ -19,7 +19,7 @@ int isTruncatablePrime(int n, int *primes)
     int left, right, len;
     left = n;
     right = n;
-    while (right = right / 10) {
+    while ((right = right / 10)) {
         len = (int)log10(left);
         left = left % ((int)powf(10, len));
         
